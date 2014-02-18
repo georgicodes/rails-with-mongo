@@ -1,0 +1,12 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @cat.name
+p
+  strong Favouritefood:
+  = @cat.favouriteFood
+
+= link_to 'Edit', edit_cat_path(@cat)
+'|
+= link_to 'Back', cats_path

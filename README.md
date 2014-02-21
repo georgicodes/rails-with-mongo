@@ -6,3 +6,8 @@ With the final step deciding to generate the model using:
 ```
 rails g scaffold Project name:String status:String
 ```
+
+Prerequisites
+- MonogoDB installed
+- Rails
+- Ruby
